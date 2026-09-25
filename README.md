@@ -1,8 +1,9 @@
 Lab 5.2 - Creacion de una pagina web responsiva con Bootstrap y CSS
-Estudiante: Roberto Lopez
+Estudiante: Roberto Lopez 7354
 Fecha: 2026
 
 DESCRIPCION DE LA TAREA:
+
 Este proyecto consiste en el desarrollo de una pagina web responsiva 
 utilizando HTML5, CSS personalizado y el framework Bootstrap 5.
 
@@ -13,6 +14,7 @@ estilos propios sobre Bootstrap, logrando un diseno adaptable a
 dispositivos moviles y de escritorio.
 
 Archivos incluidos en el ZIP:
+
 - index.html
 - style.css
 - bootstrap.css
