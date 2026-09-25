@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5.2 - Roberto 7354</title>
+    <!-- PASO 2: Framework Bootstrap local -->
+    <link href="./bootstrap.css" rel="stylesheet">
+    <!-- PASO 1: CSS propio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PASO 7: Interfaz con Bootstrap - Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Roberto7354</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PASO 3: Estilos Bootstrap + clases propias -->
+    <header class="header-principal text-center p-5">
+        <h1>Diseno de Interfaces con Bootstrap</h1>
+        <p class="lead">Laboratorio 5.2 - HTML, CSS y Framework</p>
+        <button class="btn btn-primary btn-lg boton-custom">Ver Proyectos</button>
+    </header>
+
+    <!-- PASO 6: Diseno responsivo con col-12 col-md-4 -->
+    <div class="container my-5" id="proyectos">
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card caja-estilo">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML5</h5>
+                        <p class="card-text">Estructura base aprendida en modulo 3.</p>
+                        <a href="#" class="btn btn-outline-dark">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card caja-estilo">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS3</h5>
+                        <p class="card-text">Estilos, selectores y box model del modulo 4.</p>
+                        <a href="#" class="btn btn-outline-dark">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <!-- PASO 4: Selector por ID -->
+                <div class="card caja-estilo" id="card-bootstrap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Framework responsivo y componentes.</p>
+                        <a href="#" class="btn btn-outline-primary">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>Hecho por Roberto 7354 - 2026</p>
+    </footer>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!--
+CARACTERISTICAS PRINCIPALES DE LA ESTRUCTURA HTML5 - Lab 5.2 - Roberto 7354
+
+1. DOCTYPE HTML5: <!DOCTYPE html> indica que es HTML5 y activa el modo estandar.
+2. Estructura semantica: uso de <header>, <nav>, <main>, <section>, <footer> en vez de solo divs.
+3. Metadatos basicos: <meta charset="UTF-8"> para caracteres y <meta viewport> para responsive.
+4. Lenguaje definido: <html lang="es"> para accesibilidad y SEO.
+5. Compatibilidad con Frameworks: permite enlazar Bootstrap y CSS externo con <link> y <script>.
+-->

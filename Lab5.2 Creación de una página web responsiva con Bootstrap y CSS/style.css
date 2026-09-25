@@ -1,0 +1,36 @@
+/* PASO 4: Selector por elemento */
+h1 {
+    font-weight: bold;
+    color: #212529;
+}
+
+/* PASO 4: Selector por clase */
+.header-principal {
+    background-color: #f0f4f8;
+}
+
+/* PASO 4: Selector por ID */
+#card-bootstrap {
+    background-color: #e8f0ff;
+    border: 2px solid #0d6efd;
+}
+
+/* PASO 5: Modelo de caja - padding, margin, border */
+.caja-estilo {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.boton-custom {
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+/* PASO 8: Creatividad - efecto bonito */
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
