@@ -1,6 +1,10 @@
-Lab 5.2 - Creacion de una pagina web responsiva con Bootstrap y CSS
+Lab 5.2
+
+Creacion de una pagina web responsiva con Bootstrap y CSS
+
 Estudiante: Roberto Lopez 7354
-Fecha: 2026
+
+Fecha:09/24/2026
 
 DESCRIPCION DE LA TAREA:
 
