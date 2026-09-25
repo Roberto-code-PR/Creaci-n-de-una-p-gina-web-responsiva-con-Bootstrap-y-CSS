@@ -19,4 +19,4 @@ Archivos incluidos en el ZIP:
 - bootstrap.bundle.min.js
 - README.txt
 
-GitHub: [https://github.com/Roberto-code-PR/Creaci-n-de-una-p-gina-web-responsiva-con-Bootstrap-y-CSS.git]
+
